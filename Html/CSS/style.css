@@ -195,7 +195,7 @@ img {
 /* Media query for phones */
 @media (max-width: 768px) {
     .video-container {
-        height: 150px;
+        height: 175px;
         /* Adjust as needed */
     }
 
