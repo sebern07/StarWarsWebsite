@@ -11,7 +11,7 @@ window.requestAnimFrame = (function(){
 var canvas = document.getElementById("space");
 var c = canvas.getContext("2d");
 
-var numStars = 3500; // Increase the number of stars for a denser effect
+var numStars = 4000; // Increase the number of stars for a denser effect
 var radius = '0.' + Math.floor(Math.random() * 9) + 1;
 var focalLength = canvas.width * 2;
 var warp = 0;
@@ -50,7 +50,7 @@ function initializeStars(){
 function moveStars(){
   for(i = 0; i < numStars; i++){
     star = stars[i];
-    star.z -= 1; // Increase the decrement value to make the stars move faster
+    star.z -= 2; // Increase the decrement value to make the stars move faster
     
     if(star.z <= 0){
       star.z = canvas.width;
