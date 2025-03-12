@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   margin: 0;
   overflow: hidden;
   background: rgb(0, 0, 0) url(https://i.imgur.com/r838U7u.jpg) center no-repeat;

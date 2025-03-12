@@ -196,10 +196,12 @@ img {
 @media (max-width: 768px) {
     .video-container {
         height: 175px;
+        background-color: black;
         /* Adjust as needed */
     }
 
     .video-container video {
+        background-color: black;
         height: 100%;
     }
 
