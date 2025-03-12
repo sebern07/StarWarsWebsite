@@ -66,6 +66,11 @@ html, body {
   opacity: 1;
 }
 
+/* Reset padding for main element in warp.css */
+main {
+  padding: 0 !important;
+}
+
 /* Media query for phones */
 @media (max-width: 768px) {
   #warp {
