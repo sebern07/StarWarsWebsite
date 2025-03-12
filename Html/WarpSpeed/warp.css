@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  padding: 0; /* Ensure no padding is applied */
   overflow: hidden;
   background: rgb(0, 0, 0) url(https://i.imgur.com/r838U7u.jpg) center no-repeat;
   background-size: cover;
