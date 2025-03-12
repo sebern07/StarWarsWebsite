@@ -9,12 +9,14 @@
     <link rel="shortcut icon" href="../favicon/X-wing.ico" type="image/x-icon">
     <title>Star Wars</title>
     <script src="JS/cards.js" defer></script> <!-- Include the JavaScript file with defer -->
+    <script src="JS/dropdown.js" defer></script>
 </head>
 
 <body class="index-page">
     <div class="background"></div>
     <header class="header">
         <div class="navbar">
+            <div class="dropdown" onclick="toggleDropdown()">Menu</div>
             <div class="buttons">
                 <form action="characters.html">
                     <button class="selected-button" type="submit"><b>Characters</b></button>
