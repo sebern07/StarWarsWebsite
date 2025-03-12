@@ -206,4 +206,8 @@ img {
         display: flex; /* Use flexbox to center the logo */
         justify-content: center; /* Center the logo horizontally */
     }
+
+    .warp-button-container {
+        display: none; /* Hide the warp button container on phones */
+    }
 }
