@@ -1,26 +1,26 @@
 html, body {
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    height: 100%; /* Ensure the body takes the full viewport height */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
-    overflow-y: auto; /* Allows vertical scrolling */
+    overflow-y: auto;
     color: white;
+    box-sizing: border-box;
 }
 
 main {
     padding: 0 3vw;
     text-align: center;
     min-height: 100vh;
-    /* Ensures it takes at least the full viewport height */
     overflow: visible !important;
     display: flex;
     flex-direction: column;
-
 }
 
 body.index-page {
     background-image: url('../../My_Images/Background/Starfield.jpg') !important;
-    /* Ensure the path is correct */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -30,7 +30,6 @@ body.index-page {
 .content h1,
 .content p {
     display: block;
-    /* Ensures they stack */
     width: 100%;
     text-align: center;
 }
@@ -47,49 +46,24 @@ body.index-page {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    /* Default to row on larger screens */
     background-color: rgb(8, 0, 53);
-    /* Add background color */
     padding: 10px;
-    /* Add padding */
 }
 
 .buttons {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    /* Allows wrapping on smaller screens */
     justify-content: center;
     width: 100%;
-    /* Ensure buttons take full width */
 }
 
-.navbar-button {
+.navbar-button, .selected-button {
     background-color: rgb(8, 0, 53);
     border: 2px solid yellow;
-    /* White border */
     border-radius: 10px;
     width: 100%;
-    /* Full width */
     max-width: 200px;
-    /* Maximum width */
-    height: 100%;
-    /* Full height */
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: yellow;
-    cursor: pointer;
-}
-
-.selected-button {
-    background-color: rgb(16, 0, 102);
-    border: 2px solid yellow;
-    /* White border */
-    border-radius: 10px;
-    width: 100%;
-    /* Full width */
-    max-width: 200px;
-    /* Maximum width */
     height: 100%;
     padding: 10px 20px;
     font-size: 1rem;
@@ -133,14 +107,12 @@ body.index-page {
 
 .background {
     background-image: url('../../My_Images/Background/Starfield.jpg');
-    /* Ensure the path is correct */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Ensures the image doesn't move with the content */
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -149,12 +121,13 @@ body.index-page {
 
 .video-container {
     position: relative;
-    width: 100% !important;
-    height: calc(100vh - 70px); /* Full viewport height minus the height of the navbar */
+    width: 100%;
+    height: calc(100vh - 70px);
     overflow: hidden;
-    margin: 0; /* Remove margin */
-    padding: 0 !important; /* Ensure no padding is applied */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0;
+    padding: 0 !important;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .video-container video {
@@ -163,7 +136,7 @@ body.index-page {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the video covers the container */
+    object-fit: cover;
 }
 
 .image-container {
@@ -185,13 +158,22 @@ img {
     display: none;
 }
 
-/* Media query for phones */
-/* Media query for phones */
+* {
+    box-sizing: border-box;
+    outline: 1px solid transparent; /* Remove red outline but keep debugging option */
+}
+
 @media (max-width: 768px) {
+    body {
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     .video-container {
-        height: 175px; /* Full viewport height minus the height of the navbar */
+        height: 175px;
         background-color: black;
-        position: relative; /* Ensure the video container is positioned correctly */
+        position: relative;
     }
 
     .video-container video {
@@ -200,40 +182,39 @@ img {
     }
 
     .navbar {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .buttons {
-        display: none; /* Hide buttons by default */
-        flex-direction: column; /* Stack buttons vertically on smaller screens */
-        align-items: center; /* Center align buttons */
-        width: 100%; /* Ensure buttons take full width */
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
-    .navbar-button,
-    .selected-button {
-        width: 100%; /* Adjust width to 100% on smaller screens */
-        max-width: none; /* Remove max-width restriction */
-        font-size: 0.9rem; /* Adjust font size */
-        height: auto; /* Adjust height to auto */
-        padding: 10px 15px; /* Adjust padding for smaller screens */
+    .navbar-button, .selected-button {
+        width: 100%;
+        max-width: none;
+        font-size: 0.9rem;
+        height: auto;
+        padding: 10px 15px;
     }
 
     .navbar a {
-        order: -1; /* Move the logo to the top */
-        width: 100%; /* Adjust width to 100% on smaller screens */
-        height: auto; /* Adjust height to auto */
-        display: flex; /* Use flexbox to center the logo */
-        justify-content: center; /* Center the logo horizontally */
+        order: -1;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .warp-button-container {
-        display: none; /* Hide the warp button container on phones */
+        display: none;
     }
 
     .dropdown {
-        display: block; /* Show dropdown button */
+        display: block;
         background-color: rgb(8, 0, 53);
         color: yellow;
         padding: 10px;
