@@ -189,10 +189,9 @@ img {
 /* Media query for phones */
 @media (max-width: 768px) {
     .video-container {
-        height: calc(100vh - 70px); /* Full viewport height minus the height of the navbar */
+        height: 175px; /* Full viewport height minus the height of the navbar */
         background-color: black;
         position: relative; /* Ensure the video container is positioned correctly */
-        top: 70px; /* Offset by the height of the navbar */
     }
 
     .video-container video {
