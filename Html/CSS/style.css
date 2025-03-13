@@ -186,11 +186,13 @@ img {
 }
 
 /* Media query for phones */
+/* Media query for phones */
 @media (max-width: 768px) {
     .video-container {
-        height: 175px;
+        height: calc(100vh - 70px); /* Full viewport height minus the height of the navbar */
         background-color: black;
-        /* Adjust as needed */
+        position: relative; /* Ensure the video container is positioned correctly */
+        top: 70px; /* Offset by the height of the navbar */
     }
 
     .video-container video {
@@ -198,60 +200,41 @@ img {
         height: 100%;
     }
 
-
     .navbar {
-        flex-direction: column;
-        /* Stack items vertically on smaller screens */
-        align-items: center;
-        /* Center align items */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
     }
 
     .buttons {
-        display: none;
-        /* Hide buttons by default */
-        flex-direction: column;
-        /* Stack buttons vertically on smaller screens */
-        align-items: center;
-        /* Center align buttons */
-        width: 100%;
-        /* Ensure buttons take full width */
+        display: none; /* Hide buttons by default */
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        align-items: center; /* Center align buttons */
+        width: 100%; /* Ensure buttons take full width */
     }
 
     .navbar-button,
     .selected-button {
-        width: 100%;
-        /* Adjust width to 100% on smaller screens */
-        max-width: none;
-        /* Remove max-width restriction */
-        font-size: 0.9rem;
-        /* Adjust font size */
-        height: auto;
-        /* Adjust height to auto */
-        padding: 10px 15px;
-        /* Adjust padding for smaller screens */
+        width: 100%; /* Adjust width to 100% on smaller screens */
+        max-width: none; /* Remove max-width restriction */
+        font-size: 0.9rem; /* Adjust font size */
+        height: auto; /* Adjust height to auto */
+        padding: 10px 15px; /* Adjust padding for smaller screens */
     }
 
     .navbar a {
-        order: -1;
-        /* Move the logo to the top */
-        width: 100%;
-        /* Adjust width to 100% on smaller screens */
-        height: auto;
-        /* Adjust height to auto */
-        display: flex;
-        /* Use flexbox to center the logo */
-        justify-content: center;
-        /* Center the logo horizontally */
+        order: -1; /* Move the logo to the top */
+        width: 100%; /* Adjust width to 100% on smaller screens */
+        height: auto; /* Adjust height to auto */
+        display: flex; /* Use flexbox to center the logo */
+        justify-content: center; /* Center the logo horizontally */
     }
 
     .warp-button-container {
-        display: none;
-        /* Hide the warp button container on phones */
+        display: none; /* Hide the warp button container on phones */
     }
 
     .dropdown {
-        display: block;
-        /* Show dropdown button */
+        display: block; /* Show dropdown button */
         background-color: rgb(8, 0, 53);
         color: yellow;
         padding: 10px;
