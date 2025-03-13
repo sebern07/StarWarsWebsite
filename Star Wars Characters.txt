@@ -1,66 +1,76 @@
-Star Wars Characters
 
-Jedi order:
+### **Jedi Order & Allies:**  
+1. Qui-Gon Jinn X  
+2. Obi-Wan Kenobi X  
+3. Anakin Skywalker X  
+4. Padmé Amidala X  
+5. Yoda X  
+6. Mace Windu X  
+7. R2-D2 X  
+8. C-3PO X  
+9. Bail Organa X  
+10. Ahsoka Tano X  
+11. Captain Rex X  
+12. Jyn Erso  X
+13. Cassian Andor  X
+14. K-2SO  X
+15. Mon Mothma  X
+16. Luke Skywalker X  
+17. Leia Organa  X
+18. Han Solo  X
+19. Chewbacca  X
+20. Lando Calrissian X 
+21. Wedge Antilles  X
+22. Admiral Ackbar  X
+23. Nien Nunb  
+24. Din Djarin (The Mandalorian)  
+25. Grogu (Baby Yoda)  
+26. Bo-Katan Kryze  
+27. Boba Fett (as an antihero)  
+28. Fennec Shand  
+29. Carson Teva  
+30. Rey Skywalker  
+31. Finn  
+32. Poe Dameron  
+33. Rose Tico  
+34. BB-8  
+35. Zorii Bliss  
+36. Galen Erso  
+37. Saw Gerrera  
+38. Val (Solo)  
+39. Tobias Beckett  
+40. Qi’ra  
+41. Enfys Nest  
+42. General Rieekan  
+43. Admiral Holdo  
+44. The Armorer  
+45. Cobb Vanth  
+46. Peli Motto  
 
-1. Qui-Gon Jinn  X
-2. Obi-Wan Kenobi  X
-3. Anakin Skywalker  X
-4. Padmé Amidala  X
-5. Yoda  X
-6. Mace Windu  
-7. R2-D2  
-8. C-3PO  
-9. Bail Organa  
-10. Ahsoka Tano  
-11. Captain Rex  
-12. Kanan Jarrus  
-13. Ezra Bridger  
-14. Hera Syndulla  
-15. Sabine Wren  
-16. Garazeb "Zeb" Orrelios  
-17. Jyn Erso  
-18. Cassian Andor  
-19. K-2SO  
-20. Mon Mothma  
-21. Luke Skywalker  X
-22. Leia Organa  
-23. Han Solo  
-24. Chewbacca  
-25. Lando Calrissian  
-26. Wedge Antilles  
-27. Admiral Ackbar  
-28. Din Djarin (The Mandalorian)  
-29. Grogu (Baby Yoda)  
-30. Bo-Katan Kryze  
-31. Boba Fett (as an antihero)  
-32. Fennec Shand  
-33. Carson Teva  
-34. Rey Skywalker  
-35. Finn  
-36. Poe Dameron  
-37. Rose Tico  
-38. BB-8  
-39. Zorii Bliss
+---
 
-Sith:
-
-1. Darth Sidious (Emperor Palpatine) X 
+### **Sith & Empire:**  
+1. Darth Sidious (Emperor Palpatine) X  
 2. Darth Maul  
 3. Count Dooku (Darth Tyranus)  
 4. General Grievous  
 5. Jango Fett  
-6. Nute Gunray  
-7. Darth Vader (Anakin Skywalker after turning to the dark side)  
-8. Grand Moff Tarkin  
-9. Jabba the Hutt  
-10. Boba Fett (as a bounty hunter)  
-11. Bib Fortuna  
-12. The Emperor’s Royal Guard  
-13. Orson Krennic  
-14. Supreme Leader Snoke  
-15. Kylo Ren (Ben Solo before redemption)  
-16. General Hux  
-17. Captain Phasma  
-18. Allegiant General Pryde  
-19. The Knights of Ren  
-20. Sith Eternal Cultists
+6. Grand Moff Tarkin  
+7. Boba Fett (as a bounty hunter)  
+8. Orson Krennic  
+9. Kylo Ren (Ben Solo before redemption)  
+10. General Hux  
+11. Captain Phasma  
+12. Allegiant General Pryde  
+13. Dryden Vos  
+14. Moff Gideon  
+15. Brendol Hux (General Hux’s father)  
+16. The Emperor’s Royal Guard  
+17. Bib Fortuna  
+18. Nute Gunray  
+19. Supreme Leader Snoke  
+20. The Knights of Ren  
+21. Sith Eternal Cultists  
+
+---
+
